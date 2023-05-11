@@ -1,0 +1,20 @@
+import 'package:flutter/material.dart';
+
+const mainColor = Color(0xff455A64);
+const splashColor = Color(0xffDEFFFA);
+const introColor = Color(0xff84F3C4);
+const introColor2 = Color(0xFFA9A9A9);
+const textGreen = Color(0xFF43A18B);
+const textGreenMint = Color(0xFF65C1B6);
+const textRed = Color(0xFF8F0505);
+const textGrey = Color(0xFF455A64);
+const textOffWhite = Color(0xFFFAFAFA);
+const textWhite = Color(0xFFF8F8F8);
+const btnLogin = Color(0xFF73CFB9);
+const btnColor = Color(0xFF65C1B6);
+const iconsBlack = Color(0xFF000000);
+const upNavColor = Color(0xFFA4FCD6);
+const footerNavColor = Color(0xFF65C1B6);
+const menusColor = Color(0xFFAFFFF5);
+const giftColor = Color(0xFF72C165);
+const shareColor = Color(0xFF0D34FF);

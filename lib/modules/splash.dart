@@ -10,6 +10,36 @@ class Splash extends StatefulWidget {
 class _SplashState extends State<Splash> {
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    return Scaffold(
+      body: Container(
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/images/splash_bg.png'),
+            fit: BoxFit.cover,
+          ),
+        ),
+        child: Center(
+            child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            TweenAnimationBuilder(
+              onEnd: () {
+                Navigator.pushNamed(context, '/intro');
+              },
+                tween: Tween<double>(begin: 0.0, end: 100),
+                duration: Duration(seconds: 2),
+                builder: (BuildContext context, double size, Widget? child) {
+                  return Image(
+                      image: AssetImage('assets/images/gift.png'),
+                      width: size,
+                      height: size);
+                }),
+            //  Image(image: AssetImage('assets/images/gift.png')),
+            Image(image: AssetImage('assets/images/mainlogo.png')),
+          ],
+        )),
+      ),
+    );
   }
 }

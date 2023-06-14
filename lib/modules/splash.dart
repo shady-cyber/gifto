@@ -28,15 +28,15 @@ class _SplashState extends State<Splash> {
                 Navigator.pushNamed(context, '/intro');
               },
                 tween: Tween<double>(begin: 0.0, end: 100),
-                duration: Duration(seconds: 2),
+                duration: const Duration(seconds: 2),
                 builder: (BuildContext context, double size, Widget? child) {
                   return Image(
-                      image: AssetImage('assets/images/gift.png'),
+                      image: const AssetImage('assets/images/gift.png'),
                       width: size,
                       height: size);
                 }),
             //  Image(image: AssetImage('assets/images/gift.png')),
-            Image(image: AssetImage('assets/images/mainlogo.png')),
+            const Image(image: AssetImage('assets/images/mainlogo.png')),
           ],
         )),
       ),

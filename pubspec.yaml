@@ -33,6 +33,11 @@ dependencies:
 
   easy_localization: ^3.0.1
   google_fonts: ^4.0.3
+  provider: ^6.0.3
+  get_it: ^7.2.0
+  dio: ^4.0.1
+  nb_utils: ^4.4.10
+
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2

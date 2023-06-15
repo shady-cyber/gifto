@@ -2,6 +2,20 @@
   "version":	 "Version 1.0.0",				
   "Skip":	 "Skip",
 
-  "FirstStep":	 "First steps",
-  "intro1": "This is going to be the start of your journey inside our app"
+  "Continue": "Continue",
+
+  "First_Step":	 "First steps",
+  "intro1": "This is going to be the start of your journey inside our app",
+
+  "Create_Events": "Create Events",
+  "intro2": "That make group gifting easy and send the link of invitation to all friends",
+
+  "Create_Agift_Wishlist": "Create A gift Wishlist",
+  "intro3": "With all love, send the present through the website or the app",
+
+  "Enjoy_our_offers": "Enjoy our offers",
+  "intro4": "Feel free to enjoy our endless offers every day through the app",
+
+  "Get_Started": "Get Started"
+
 }
